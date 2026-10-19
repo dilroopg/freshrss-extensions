@@ -76,6 +76,8 @@ small left indent, controlled by a slider that lives **in the sidebar itself**,
 directly under the **Important feeds** row — and starts collapsed, so it is one
 quiet line until you open it.
 
+![The Feed Indent control in the sidebar](https://raw.githubusercontent.com/dilroopg/xExtension-SidebarIndent/master/docs/sidebar.png)
+
 - Dragging the slider moves the indent live, against your actual feeds. **Save** stores it.
 - The indent applies to feed rows only: category rows, tags and the main stream are untouched.
 - Writes nothing — one CSS custom property and one rule on `#aside_feed`.
