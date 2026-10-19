@@ -80,6 +80,9 @@ quiet line until you open it.
 - The indent applies to feed rows only: category rows, tags and the main stream are untouched.
 - Writes nothing — one CSS custom property and one rule on `#aside_feed`.
 
+[Download 1.0.0](https://github.com/dilroopg/xExtension-SidebarIndent/releases/tag/v1.0.0) ·
+[Changelog](https://github.com/dilroopg/xExtension-SidebarIndent/blob/master/CHANGELOG.md)
+
 ---
 
 ## Browser extension
