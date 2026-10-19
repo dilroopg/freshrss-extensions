@@ -66,6 +66,22 @@ network — see the repo for setup. That repo is a small fork of upstream pol-le
 
 ---
 
+## Sidebar
+
+### [Sidebar Feed Indent](https://github.com/dilroopg/xExtension-SidebarIndent)
+
+Feed rows sit flush against the sidebar edge, which leaves the feed name jammed
+against the window and a long way from its unread count on the right. This adds a
+small left indent, controlled by a slider that lives **in the sidebar itself**,
+directly under the **Important feeds** row — and starts collapsed, so it is one
+quiet line until you open it.
+
+- Dragging the slider moves the indent live, against your actual feeds. **Save** stores it.
+- The indent applies to feed rows only: category rows, tags and the main stream are untouched.
+- Writes nothing — one CSS custom property and one rule on `#aside_feed`.
+
+---
+
 ## Browser extension
 
 ### [Add to FreshRSS](https://github.com/dilroopg/add-to-freshrss)
