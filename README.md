@@ -10,7 +10,7 @@ No telemetry, no accounts, no external services. Everything runs on your own ins
 Two extensions that manage what your sidebar shows. They do different jobs and are
 designed to be installed together.
 
-### [Hidden Categories](https://github.com/dilroopg/xExtension-HiddenCategories)
+### [Hidden Categories](https://github.com/hardlysleeping/xExtension-HiddenCategories)
 
 Put categories away without unsubscribing. No sidebar row, no articles in the main
 stream, feeds keep updating. One eye button cycles **Hidden** → **Shown** → **Just hidden**.
@@ -20,7 +20,7 @@ stream, feeds keep updating. One eye button cycles **Hidden** → **Shown** → 
   `feed.priority`, with a snapshot restored when you unhide.
 - Optional passcode lock.
 
-### [Favorite Categories](https://github.com/dilroopg/xExtension-FavoriteCategories)
+### [Favorite Categories](https://github.com/hardlysleeping/xExtension-FavoriteCategories)
 
 Filter your sidebar down to the categories you actually read. One button cycles
 **Mixed** → **Just Favorites** → **Hide Favorites**. A settings dropdown swaps the star for a
@@ -39,7 +39,7 @@ and carry a badge, with their original order restored when unfavorited.
 
 ## Feed settings
 
-### [Right Click Actions - Feed Settings Panel](https://github.com/dilroopg/xExtension-RightClickActions-FeedSettingsPanel)
+### [Right Click Actions - Feed Settings Panel](https://github.com/hardlysleeping/xExtension-RightClickActions-FeedSettingsPanel)
 
 Open a feed's settings in a floating panel over the page you are on, instead of
 navigating away — so your reading position survives the edit. Requires
@@ -53,14 +53,14 @@ switchable, each reporting back in the panel while it works.
 
 ## Feeds that have no RSS
 
-### [pol-ler Sites](https://github.com/dilroopg/freshrss-poller-sites)
+### [pol-ler Sites](https://github.com/hardlysleeping/freshrss-poller-sites)
 
 Scrape sites that publish no feed at all. Teach it a site once — a URL pattern and one
 template feed — then add any person or page on that site by name and get a working
 subscription, filed in its own category.
 
 Standalone: it needs no other FreshRSS extension. It does need a
-[self-hosted pol-ler](https://github.com/dilroopg/pol-ler) instance on the same Docker
+[self-hosted pol-ler](https://github.com/hardlysleeping/pol-ler) instance on the same Docker
 network — see the repo for setup. That repo is a small fork of upstream pol-ler adding
 `FEED_URL_BASE` so the subscribe link resolves from inside a container; upstream works too.
 
@@ -89,7 +89,7 @@ quiet line until you open it.
 
 ## Browser extension
 
-### [Add to FreshRSS](https://github.com/dilroopg/add-to-freshrss)
+### [Add to FreshRSS](https://github.com/hardlysleeping/add-to-freshrss)
 
 Right-click any link or page and subscribe it to your FreshRSS — no copy-pasting URLs
 into the web UI. Firefox, Manifest V3, no build step, no dependencies.
